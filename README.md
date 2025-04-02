@@ -1,7 +1,7 @@
 # a GP-GCN framework for genomics
 This is a python package for genomics study with a GP-GCN (Gapped Pattern Graph Convolutional Networks) framework.
 
-![image](https://github.com/deepomicslab/GCNFrame/blob/master/GCNframework.png)
+
 
 # Getting started
 
@@ -77,9 +77,7 @@ The scores for the gapped-patterns will also be saved in a txt file.
 # the pattern_group_contribution_score function groups similar gapped patterns and analyzes the occurrence & scores for each group.
 pattern_group_contribution_score(fasta_file="example_data/nature_2017.fasta", label_file="example_data/lifestyle_label.txt", score_list=score_list)
 ```
-The results are saved as figures.
-![image](https://github.com/deepomicslab/GCNFrame/blob/master/pos_neg_match_grouped.png)
-![image](https://github.com/deepomicslab/GCNFrame/blob/master/pos_neg_score_grouped.png)
+
 
 ```Python
 # the motif_contribution_score calculate the contribution score for a given motif.
@@ -163,10 +161,4 @@ print("The contribution score for AAAAAATTCG is %s."%score)
 > + ```d```: The number of spaced distance used for encoding (default=3).
 
 
-### Version history
-+ `v0.1.2`: Extension to RNA sequences & Enabling saving encoded data.
-+ `v0.1.1`: Add contribution score functions.
-+ `v0.0.1`: Initial version.
 
-### Maintainer
-WANG Ruohan ruohawang2-c@my.cityu.edu.hk
